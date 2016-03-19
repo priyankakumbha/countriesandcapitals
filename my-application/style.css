@@ -1,0 +1,103 @@
+
+body {
+     width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+html {
+    width:100%;
+    height: 100%;
+}
+
+  .intro{
+  	background-image: url("sea.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	
+  height: auto;
+  width:10000;
+ 
+  min-height: 100%;
+ 
+  }
+
+  table {
+    color: black;
+}
+
+.scrollTable {
+    height: 400px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+dl {
+    color: black;
+}
+
+.img-thumbnail {
+    margin-bottom: 15px;    
+}
+
+.list-unstyled {
+    margin-bottom: 0;
+}
+
+/*animations*/
+div[ng-view].ng-enter {
+    -webkit-animation: fadeInDown 1s;
+    animation: fadeInDown 1s;
+}
+
+/* navbar */
+.brand-heading {
+    font-size: 40px;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+.links{
+  float: right;
+  width:200px;
+  height:30px;
+  margin-top: 20px;
+}
+
+.info{
+  margin:300px 340px;
+  max-width: 50%;
+}
+
+.panel-heading-one{
+  margin:20px 400px;
+}
+.panel-info-one{
+  margin:100px 250px;
+}
+.container{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+h2{
+  margin-left: 130px;
+}
